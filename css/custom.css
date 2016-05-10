@@ -1,0 +1,67 @@
+input {
+    width: 300px;
+    height: 30px;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 1.2em;
+    border: 1px solid grey;
+    margin-bottom: 10px;
+}
+
+.right {
+    align-content: left;
+}
+
+img {
+    margin-top: 30px;
+}
+
+label {
+    width: 400px;
+    float: right;
+    padding-top: 7px;
+}
+
+#submitButton {
+    height: 50px;
+    margin-left: 200px;
+    width: 100px;
+}
+
+
+.jumbotron {
+    margin; 0 auto;
+    text-align: center;
+}
+
+span {
+    color: red;
+}
+
+.fa-spin-custom,
+.glyphicon-spin {
+    -webkit-animation: spin 6000ms infinite linear;
+    animation: spin 6000ms infinite linear;
+}
+
+@-webkit-keyframes spin {
+    0% {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    100% {
+        -webkit-transform: rotate(359deg);
+        transform: rotate(359deg);
+    }
+}
+
+@keyframes spin {
+    0% {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    100% {
+        -webkit-transform: rotate(359deg);
+        transform: rotate(359deg);
+    }
+}/* This is a custom CSS stylesheet */
